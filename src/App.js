@@ -22,4 +22,6 @@ function App() {
 
 export default App;
 
-// localhost:3000/product-detail/anything -> placeholder
+// domain.com/welcome -> welcome component
+// domain.com/products -> products component
+// localhost:3000/product-detail/<any value> -> placeholder
