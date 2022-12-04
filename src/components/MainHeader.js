@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-
+import styles from "./MainHeader.module.css";
 function MainHeader() {
   return (
-    <header>
+    <header className={styles.header}>
       <nav>
         <ul>
           <li>
