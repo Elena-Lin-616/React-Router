@@ -1,5 +1,5 @@
-import { Welcome, Products } from "./pages";
 import { MainHeader } from "./components";
+import { Welcome, Products, ProductDetail } from "./pages";
 import { Route } from "react-router-dom";
 function App() {
   return (
@@ -12,8 +12,14 @@ function App() {
       <Route path="/products">
         <Products />
       </Route>
+
+      <Route path="/product-detail/:productId">
+        <ProductDetail />
+      </Route>
     </div>
   );
 }
 
 export default App;
+
+// localhost:3000/product-detail/anything -> placeholder
